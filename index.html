@@ -1,0 +1,80 @@
+
+
+<!doctype html>
+
+<html>
+	<head>
+		<title>Make a Sandwich</title>
+		<link rel="stylesheet" type="text/css" href="styles/sandwich.css">
+	</head>
+	<body>
+		<section>
+		<h2>Build Your Sandwich!!!!!</h2>
+		</section>
+
+
+<!-- Select your ingredients -->
+		<section>
+			<h3>Please choose your ingredients from the selections below: </h3>
+			<div id="choices">
+				<label>BREAD: </label>
+				<select id="bread">
+					<option id="opt" value="blank">Choose One</option>
+					<option id="opt" value="white">White</option>
+					<option id="opt" value="wheat">Wheat</option>
+					<option id="opt" value="rye">Rye</option>
+					<option id="opt" value="sourdough">Sour Dough</option>
+				</select>	
+				<div id="meat">MEAT: 
+					<label><input id="checked" type="checkbox" name="meat" value="turkey">Turkey</label>
+					<label><input id="checked" type="checkbox" name="meat" value="beef">Roast Beef</label>
+					<label><input id="checked" type="checkbox" name="meat" value="salami">Salami</label>
+					<label><input id="checked" type="checkbox" name="meat" value="bacon">Bacon</label>
+				</div>
+				<div id="cheese">CHEESE: 
+					<label><input type="checkbox" name="cheese" value="cheddar">Cheddar</label>
+					<label><input type="checkbox" name="cheese" value="swiss">Swiss</label>
+					<label><input type="checkbox" name="cheese" value="provolone">Provolone</label>
+				</div>
+				<div id="veggie">VEGGIES: 
+					<label><input type="checkbox" name="veggie" value="lettuce">Lettuce</label>
+					<label><input type="checkbox" name="veggie" value="tomato">Tomato</label>
+					<label><input type="checkbox" name="veggie" value="onions">Onions</label>
+					<label><input type="checkbox" name="veggie" value="peppers">Peppers</label>
+				</div>
+				<div id="condiment">CONDIMENT: 
+					<label><input type="checkbox" name="condiment" value="mayo">Mayo</label>
+					<label><input type="checkbox" name="condiment" value="mustard">Mustard</label>
+					<label><input type="checkbox" name="condiment" value="aiolo">Aioli</label>
+				</div>
+<!--				<img href="http://www.nataliedee.com/061405/ok-i-love-sandwiches.jpg">  -->
+			</div>
+ 			<div><button id="create">Make me a Sandwich!</button></div>
+		</section>
+
+
+	<!-- Process your ingredients -->
+		<article id="order-completed">
+			<p><span id="placeholder-order"></p>
+			<p><span id="final-cost"></p>
+		</article>
+
+
+
+		<script data-main="javascripts/entry" src="lib/bower_components/requirejs/require.js"></script>
+
+<!--
+		<script src="./lib/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="javascripts/sandwich.js "></script>
+		<script src="javascripts/meat.js"></script>
+		<script src="javascripts/bread.js"></script>
+---->
+
+<!---
+		<script src="vegie.js"></script>
+		<script src="cheese.js"></script>
+	---->
+		<!-- // <script src="javascripts/apps.js"></script> -->
+
+	</body>
+</html>

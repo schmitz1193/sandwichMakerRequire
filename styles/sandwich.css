@@ -1,0 +1,32 @@
+
+body {
+	border: 2px solid black;
+	font-size: 1.5em;
+	width: 80%;
+	margin: 25px 0 25px 50px;
+	padding-left: 25px;
+}
+/*******************************
+body { 
+	background: url(http://www.nataliedee.com/061405/ok-i-love-sandwiches.jpg) no-repeat center center fixed;
+	background-size: cover;
+	}
+******************************/
+
+option#opt {
+	font-size: 10em;
+}
+
+#bread {
+	font-size: 1.25em;
+	margin: 0 0 10px 0;
+}
+
+
+#meat, #cheese, #veggie, #condiment {
+	margin: 0 0 10px 0;
+}
+#create {
+	font-size: 1.25em;
+	margin: 10px 0 0 0;
+}
